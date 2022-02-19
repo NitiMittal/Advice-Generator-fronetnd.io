@@ -45,11 +45,7 @@ const Advice = () => {
         </div>
       </div>
       <div className="attribution">
-        Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by <a href="https://github.com/NitiMittal/Advice-Generator-fronetnd.io">Niti Mittal</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. Coded by <a href="https://github.com/NitiMittal/Advice-Generator-fronetnd.io">Niti Mittal</a>.
       </div>
     </main>
   );
