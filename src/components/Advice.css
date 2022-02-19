@@ -67,14 +67,18 @@ body {
   justify-content: center;
   margin-top: 2rem;
   margin-bottom: -40px;
+  cursor: pointer;
 }
 
+.dice-btn:hover {
+  box-shadow: 0 0 40px var(--neonGreen);
+}
 .attribution {
   font-size: 15px;
   margin-top: 5rem;
   text-align: center;
-  color: white;
+  color: var(--lightCyan);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--neonGreen);
 }
