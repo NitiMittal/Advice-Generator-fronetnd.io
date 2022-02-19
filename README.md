@@ -25,7 +25,7 @@ src/images/screenshot.png
 ### Links
 
 - Solution URL: https://github.com/NitiMittal/Advice-Generator-fronetnd.io
-- Live Site URL:
+- Live Site URL: https://advice-calculator-demo.netlify.app/
 
 ## My process
 
