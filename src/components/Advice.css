@@ -1,0 +1,80 @@
+:root {
+  --lightCyan: hsl(193, 38%, 86%);
+  --neonGreen: hsl(150, 100%, 66%);
+  --grayishBlue: hsl(217, 19%, 38%);
+  --darkGrayishBlue: hsl(217, 19%, 24%);
+  --bgColor: rgba(13, 12, 14, 0.95);
+}
+
+body {
+  background-color: var(--bgColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-container {
+  margin: 0 2rem;
+  max-width: 550px;
+  background-color: #ccc;
+  border-radius: 3px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 3rem;
+  background-color: var(--darkGrayishBlue);
+}
+
+.advice-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  color: var(--neonGreen);
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.quote {
+  color: var(--lightCyan);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.divider {
+  margin-top: 2rem;
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.dice-btn {
+  background-color: var(--neonGreen);
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: -40px;
+}
+
+.attribution {
+  font-size: 15px;
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
